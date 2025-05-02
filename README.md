@@ -6,7 +6,7 @@
 
 - [ ] Re-formatting data
 - [ ] Create GAN
-- [ ] Create VAE
+- [ ] Create DDPM
 - [ ] Running them
     - [ ] Collecting meseaurement
 - [ ] Define the gof 
