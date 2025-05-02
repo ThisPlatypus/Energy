@@ -5,20 +5,25 @@ import torch.nn as nn
 from torch.utils.data import Dataset, DataLoader
 from sklearn.model_selection import train_test_split
 from ut import EnergyDatasetFromRows
-
+from tensorboardX import SummaryWriter
+import matplotlib.pyplot as plt
 # --------------------- CONFIG ---------------------
 
+EPOCHS = 500
+
+res = SummaryWriter(log_dir="/home/chiara/Energy/LOG", flush_secs=5)
+# Hyperparameters
 INPUT_LEN = 1550
 OUTPUT_LEN = 240
 BATCH_SIZE = 16
-EPOCHS = 10
+
 TIMESTEPS = 1000
 LR = 1e-4
 TRAIN_SPLIT = 0.9 
 
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 CSV_PATH = "/home/chiara/Energy/Data/SET_1790.csv"  # ← Replace this with your actual file
-SAVE_CSV = "ddpm_predictions.csv"
+SAVE_CSV = "/home/chiara/Energy/PRED/ddpm_predictions.csv"
 
 # --------------------- DIFFUSION ---------------------
 
@@ -69,6 +74,9 @@ def train(model, diffusion, dataloader):
     optimizer = torch.optim.Adam(model.parameters(), lr=LR)
     mse = nn.MSELoss()
 
+    best_loss = float('inf')
+    best_model_state = None
+
     for epoch in range(EPOCHS):
         total_loss = 0
         for x, y in dataloader:
@@ -84,7 +92,19 @@ def train(model, diffusion, dataloader):
             total_loss += loss.item()
 
         avg_loss = total_loss / len(dataloader)
+        res.add_scalar('Loss/train', avg_loss, epoch)
         print(f"Epoch {epoch + 1}/{EPOCHS} - Loss: {avg_loss:.4f}")
+
+        # Save the best model
+        if avg_loss < best_loss:
+            best_loss = avg_loss
+            best_model_state = model.state_dict()
+            torch.save(model.state_dict(), "/home/chiara/Energy/SAVED_MODEL/best_DDP.pt")
+
+    # Load the best model state after training
+    if best_model_state is not None:
+        model.load_state_dict(best_model_state)
+        print("Best model loaded with loss:", best_loss)
 
 # --------------------- SAMPLING ---------------------
 
@@ -139,11 +159,34 @@ def main():
         batch_pred = sample(model, diffusion, batch_cond)
         predictions.extend(batch_pred)
 
-    # Save predictions
-    flat_predictions = np.array(predictions).reshape(-1, OUTPUT_LEN)
-    df_preds = pd.DataFrame(flat_predictions)
-    df_preds.to_csv(SAVE_CSV, index=False)
-    print(f"Predictions saved to {SAVE_CSV}")
+    df_preds = pd.DataFrame(predictions, columns=[f"Pred_{i}" for i in range(OUTPUT_LEN)])
+    # Save predictions and actual values
+    actual_values = np.array([y for _, y in test]).reshape(-1, OUTPUT_LEN)
+    df_actual = pd.DataFrame(actual_values, columns=[f"Actual_{i}" for i in range(OUTPUT_LEN)])
+    df_combined = pd.concat([df_preds, df_actual], axis=1)
+    df_combined.to_csv(SAVE_CSV, index=False)
+    print(f"Predictions and actual values saved to {SAVE_CSV}")
+
+
+
+    # Plot predictions vs actual values for the first sample
+    n = min(len(predictions), 5)  # Limit to first 5 samples for visualization
+    fig, axes = plt.subplots(n, 1, figsize=(10, 6 * n), sharex=True)
+
+    pastel_colors = ['#AEC6CF', '#FFB347', '#B39EB5', '#FF6961', '#77DD77']
+
+    for i in range(n):
+        axes[i].plot(predictions[i], label="Prediction", color=pastel_colors[i % len(pastel_colors)])
+        axes[i].plot(actual_values[i], label="Actual", color="gray", linestyle="--")
+        axes[i].set_title(f"Prediction vs Actual for Sample {i + 1}")
+        axes[i].set_xlabel("Time Step")
+        axes[i].set_ylabel("Value")
+        axes[i].legend()
+        axes[i].grid()
+
+    plt.tight_layout()
+    plt.savefig("/home/chiara/Energy/PLOT/prediction_vs_actual_matrix.png")
+    res.close()
 
 if __name__ == "__main__":
     main()
