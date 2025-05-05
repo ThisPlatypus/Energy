@@ -3,13 +3,14 @@ import numpy as np
 import torch
 import torch.nn as nn
 from torch.utils.data import Dataset, DataLoader
-from sklearn.model_selection import train_test_split
+
 from ut import EnergyDatasetFromRows
+from torchvision import transforms
 from tensorboardX import SummaryWriter
 import matplotlib.pyplot as plt
 # --------------------- CONFIG ---------------------
 
-EPOCHS = 500
+EPOCHS = 5000
 
 res = SummaryWriter(log_dir="/home/chiara/Energy/LOG", flush_secs=5)
 # Hyperparameters
@@ -141,7 +142,7 @@ def main():
     print(f"Test dataset size: {len(test)}")
     print(f"Train dataset shape: {train_df[0][0].shape}, {train_df[0][1].shape}")
     print(f"Test dataset shape: {test[0][0].shape}, {test[0][1].shape}")
-#
+    
     train_loader = DataLoader(train_df, batch_size=BATCH_SIZE, shuffle=True)
     
 
@@ -170,7 +171,7 @@ def main():
 
 
     # Plot predictions vs actual values for the first sample
-    n = min(len(predictions), 5)  # Limit to first 5 samples for visualization
+    n = min(len(predictions), 10)  # Limit to first 5 samples for visualization
     fig, axes = plt.subplots(n, 1, figsize=(10, 6 * n), sharex=True)
 
     pastel_colors = ['#AEC6CF', '#FFB347', '#B39EB5', '#FF6961', '#77DD77']
@@ -185,7 +186,7 @@ def main():
         axes[i].grid()
 
     plt.tight_layout()
-    plt.savefig("/home/chiara/Energy/PLOT/prediction_vs_actual_matrix.png")
+    plt.savefig("/home/chiara/Energy/PLOT/DDPM_prediction_vs_actual_matrix.png")
     res.close()
 
 if __name__ == "__main__":

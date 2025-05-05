@@ -14,11 +14,15 @@ class EnergyDatasetFromRows(Dataset):
 
         # Split the data into train and test sets
         split_idx = int(len(self.data) * train_split)
+        # Standardize the data
+        self.mean = self.data.mean(axis=0)
+        self.std = self.data.std(axis=0)
+        self.data = (self.data - self.mean) / self.std
         if train:
             self.data = self.data[:split_idx]
         else:
             self.data = self.data[split_idx:]
-
+            
     def __len__(self):
         return len(self.data)
 
