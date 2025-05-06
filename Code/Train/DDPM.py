@@ -10,7 +10,7 @@ from tensorboardX import SummaryWriter
 import matplotlib.pyplot as plt
 # --------------------- CONFIG ---------------------
 
-EPOCHS = 5000
+EPOCHS = 2000
 
 res = SummaryWriter(log_dir="/home/chiara/Energy/LOG", flush_secs=5)
 # Hyperparameters
