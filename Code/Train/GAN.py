@@ -41,7 +41,7 @@ class Generator(nn.Module):
                 nn.LeakyReLU(),
                 
                 # last layer
-                nn.Linear(self.out_scale2*10, 240),
+                nn.Linear(self.out_scale2*10, 72),
                 nn.Tanh()  
             )
         })
@@ -83,7 +83,7 @@ class Discriminator(nn.Module):
             '60m': nn.Sequential(
                 
                 # first layer
-                nn.Linear(240, self.out_scale2*10),
+                nn.Linear(72, self.out_scale2*10),
                 nn.BatchNorm1d(self.out_scale2*10),
                 nn.LeakyReLU(),
                 
@@ -104,7 +104,7 @@ class Discriminator(nn.Module):
         if self.model_typle == '30m':
             x = x[:, :48]  # Slice or reshape to match the input size of 48
         elif self.model_typle == '60m':
-            x = x[:, :240]  # Slice or reshape to match the input size of 24
+            x = x[:, :72]  # Slice or reshape to match the input size of 24
 
         score = self.models[self.model_typle](x)
         return score

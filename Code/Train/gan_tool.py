@@ -16,7 +16,7 @@ class MyDataset(Dataset):
             numpy_array = numpy_array.to_numpy()
 
         self.scaler = MinMaxScaler(feature_range=range)
-        scaled_data = self.scaler.fit_transform(numpy_array[:, -240:])
+        scaled_data = self.scaler.fit_transform(numpy_array[:, -72:])
         self.data = torch.from_numpy(scaled_data).float()
 
     def __len__(self):
@@ -64,7 +64,7 @@ def train_models(
     """
     
     # load data & dataloader 
-    data = pd.read_csv(path_data, header=0, sep=',', decimal=",")
+    data = pd.read_csv(path_data, header=0, sep=';', decimal=",", index_col="index").drop(columns=["Unnamed: 0"]) 
     dataloader_uk, scaler = dataloader(data, batch_size, shuffle=True)
 
     # device

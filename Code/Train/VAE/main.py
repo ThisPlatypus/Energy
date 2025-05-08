@@ -17,7 +17,7 @@ SAVE_CSV = "/home/chiara/Energy/PRED/VAE_predictions.csv"
 # train the model
 while True:
     scaler, ganpath = tvae.train_models(
-                    input_dim = 1550,
+                    input_dim = 72,
                     hidden_dim = 10,
                     path_data =  CSV_PATH,
                     saving_path =  MODEL_PATH,

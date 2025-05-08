@@ -3,7 +3,7 @@ from torch import nn
 
 
 class VAE_30m(nn.Module):
-    def __init__(self, input_shape=1550, forecast_shape=240, latent_dim=10):
+    def __init__(self, input_shape=1550, forecast_shape=72, latent_dim=10):
         super(VAE_30m, self).__init__()
 
         self.input_shape = input_shape

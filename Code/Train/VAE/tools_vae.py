@@ -92,7 +92,8 @@ def train_models(
     """
         
     # load the data & data loader
-    data = pd.read_csv(path_data, header=0, sep=',', decimal=",").iloc[:, :1550]
+    
+    data = pd.read_csv(path_data, header=0, sep=';', decimal=",", index_col="index").drop(columns=["Unnamed: 0"]).iloc[:, :72]
 
     data_loader, scaler = dataloader(data, batch_size=batch_size, shuffle=True)
 
