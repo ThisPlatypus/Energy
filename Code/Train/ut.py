@@ -6,7 +6,7 @@ import numpy as np
 # --------------------- DATASET ---------------------
 
 class EnergyDatasetFromRows(Dataset):
-    def __init__(self, save_path, input_len=1790, output_len=240, train_split=0.8, train=True):
+    def __init__(self, save_path, input_len=72, output_len=72, train_split=0.8, train=True):
         self.df = pd.read_csv(save_path, header=0, sep=',', decimal=",")
         self.data = self.df.values.astype(np.float32)
         self.input_len = input_len
@@ -31,4 +31,25 @@ class EnergyDatasetFromRows(Dataset):
         x = row[:self.input_len]
         y = row[self.input_len:self.input_len + self.output_len]
         return torch.tensor(x), torch.tensor(y)
+
+
+
+class EnergyDataset2(Dataset):
+    def __init__(self, save_path):
+        # Load the DataFrame
+        self.df = pd.read_csv(save_path, header=0, sep=';', decimal=",", index_col="index").drop(columns=["Unnamed: 0"])
+        self.data = self.df.values.astype(np.float32)
+
+        # Determine column indices for 'x' and 'y'
+        self.x_indices = [i for i, col in enumerate(self.df.columns) if 'x' in col.lower()]
+        self.y_indices = [i for i, col in enumerate(self.df.columns) if 'y' in col.lower()]
+
+    def __len__(self):
+        return len(self.data)
+
+    def __getitem__(self, idx):
+        # Use the precomputed indices to slice the NumPy array
+        x = self.data[idx, self.x_indices]
+        y = self.data[idx, self.y_indices]
+        return torch.tensor(x, dtype=torch.float32), torch.tensor(y, dtype=torch.float32)
 
