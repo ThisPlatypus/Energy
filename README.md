@@ -4,9 +4,9 @@
 
 # To do
 
-- [ ] Re-formatting data
+- [x] Re-formatting data
 - [ ] Create GAN
-- [ ] Create DDPM
+- [x] Create DDPM
 - [ ] Running them
     - [ ] Collecting meseaurement
 - [ ] Define the gof 
