@@ -21,8 +21,8 @@ class MyDataset(Dataset):
         self.scaler_target = MinMaxScaler(feature_range=range)
 
         # Fit scalers on input and target data
-        self.data = self.scaler_input.fit_transform(numpy_array[:, :1550])  # First 1550 columns as input
-        self.target_data = self.scaler_target.fit_transform(numpy_array[:, -240:])  # Last 240 columns as target
+        self.data = self.scaler_input.fit_transform(numpy_array[:, :72])  # First 1550 columns as input
+        self.target_data = self.scaler_target.fit_transform(numpy_array[:, -72:])  # Last 240 columns as target
 
     def __len__(self):
         return len(self.data)
@@ -36,10 +36,10 @@ class MyDataset(Dataset):
         scaler = self.scaler_target if target else self.scaler_input
 
         # Ensure the scaled_data shape matches the scaler's expectations
-        if target and scaled_data.shape[1] != 240:
-            raise ValueError(f"Expected scaled_data to have 240 features, but got {scaled_data.shape[1]} features.")
-        if not target and scaled_data.shape[1] != 1550:
-            raise ValueError(f"Expected scaled_data to have 1550 features, but got {scaled_data.shape[1]} features.")
+        if target and scaled_data.shape[1] != 72:
+            raise ValueError(f"Expected scaled_data to have 72 features, but got {scaled_data.shape[1]} features.")
+        if not target and scaled_data.shape[1] != 72:
+            raise ValueError(f"Expected scaled_data to have 72 features, but got {scaled_data.shape[1]} features.")
 
         # Convert back to original scale
         original_scale_data = scaler.inverse_transform(scaled_data)

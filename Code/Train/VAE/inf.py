@@ -9,14 +9,15 @@ import os
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 
-CSV_PATH = "/home/chiara/Energy/Data/SET_1790.csv"  # ← Replace this with your actual file
+CSV_PATH = "/home/chiara/Energy/Data/Train_2m_72.csv"  # ← Replace this with your actual file\\
+TEST_PATH = "/home/chiara/Energy/Data/Test_2m_72.csv"  # ← Replace this with your actual file
 MODEL_PATH = "/home/chiara/Energy/SAVED_MODEL/VAE"  # ← Replace this with your actual file
 SAVE_CSV = "/home/chiara/Energy/PRED/VAE_predictions"
 ganpath = '/home/chiara/Energy/SAVED_MODEL/VAE/best_generator.pt'
 
 for i in range(50):
     # Load the model
-    vae = mds.VAE_30m(input_shape=1550, forecast_shape=240, latent_dim=10).to(DEVICE)  # Move the model to the correct device
+    vae = mds.VAE_30m(input_shape=72, forecast_shape=72, latent_dim=10).to(DEVICE)  # Move the model to the correct device
 
 
     # Load the state_dict and remove "module." prefix
@@ -25,8 +26,9 @@ for i in range(50):
     vae.load_state_dict(new_state_dict)
 
     # Original data
-    or_data = np.array(pd.read_csv(CSV_PATH, header=0, sep=',', decimal=","))
-    input_data = or_data[:, :1550]  # First 1550 columns as input
+    or_data = np.array(pd.read_csv(TEST_PATH, header=0, sep=';', decimal=",", index_col="index").drop(columns=["Unnamed: 0"]))
+
+    input_data = or_data[:, :72]  # First 1550 columns as input
     input_data = torch.tensor(input_data, dtype=torch.float32).to(DEVICE)  # Convert to Float and move to device
 
     # Create an instance of MyDataset to initialize scalers
@@ -40,6 +42,6 @@ for i in range(50):
     gen_data = dataset.inverse_transform(scaled_data=gen_data, target=True)  # Use the target scaler for forecasted data
 
     
-
-    # Save the generated data
-    pd.DataFrame(gen_data).to_csv(f'{SAVE_CSV}_{i}.csv', index=False)
+    # Save the generated data with the same index as the TEST data
+    gen_df = pd.DataFrame(gen_data, index=pd.read_csv(TEST_PATH, header=0, sep=';', decimal=",", index_col="index").drop(columns=["Unnamed: 0"]).index)
+    gen_df.to_csv(f'{SAVE_CSV}_{i}.csv', index_label="index")

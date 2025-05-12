@@ -38,6 +38,7 @@ class EnergyDataset2(Dataset):
     def __init__(self, save_path):
         # Load the DataFrame
         self.df = pd.read_csv(save_path, header=0, sep=';', decimal=",", index_col="index").drop(columns=["Unnamed: 0"])
+        
         self.data = self.df.values.astype(np.float32)
 
         # Determine column indices for 'x' and 'y'

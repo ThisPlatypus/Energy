@@ -1,551 +1,451 @@
 nohup: ignoring input
 /home/chiara/anaconda3/envs/MGS/lib/python3.12/site-packages/torch/nn/modules/transformer.py:306: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.self_attn.batch_first was not True(use batch_first for better inference performance)
   warnings.warn(f"enable_nested_tensor is True, but self.use_nested_tensor is False because {why_not_sparsity_fast_path}")
+/home/chiara/anaconda3/envs/MGS/lib/python3.12/site-packages/torch/nn/modules/transformer.py:306: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.self_attn.batch_first was not True(use batch_first for better inference performance)
+  warnings.warn(f"enable_nested_tensor is True, but self.use_nested_tensor is False because {why_not_sparsity_fast_path}")
+/home/chiara/anaconda3/envs/MGS/lib/python3.12/site-packages/torch/nn/modules/transformer.py:306: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.self_attn.batch_first was not True(use batch_first for better inference performance)
+  warnings.warn(f"enable_nested_tensor is True, but self.use_nested_tensor is False because {why_not_sparsity_fast_path}")
+/home/chiara/anaconda3/envs/MGS/lib/python3.12/site-packages/torch/nn/modules/transformer.py:306: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.self_attn.batch_first was not True(use batch_first for better inference performance)
+  warnings.warn(f"enable_nested_tensor is True, but self.use_nested_tensor is False because {why_not_sparsity_fast_path}")
+/home/chiara/anaconda3/envs/MGS/lib/python3.12/site-packages/torch/nn/modules/transformer.py:306: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.self_attn.batch_first was not True(use batch_first for better inference performance)
+  warnings.warn(f"enable_nested_tensor is True, but self.use_nested_tensor is False because {why_not_sparsity_fast_path}")
+/home/chiara/anaconda3/envs/MGS/lib/python3.12/site-packages/torch/nn/modules/transformer.py:306: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.self_attn.batch_first was not True(use batch_first for better inference performance)
+  warnings.warn(f"enable_nested_tensor is True, but self.use_nested_tensor is False because {why_not_sparsity_fast_path}")
+/home/chiara/anaconda3/envs/MGS/lib/python3.12/site-packages/torch/nn/modules/transformer.py:306: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.self_attn.batch_first was not True(use batch_first for better inference performance)
+  warnings.warn(f"enable_nested_tensor is True, but self.use_nested_tensor is False because {why_not_sparsity_fast_path}")
+/home/chiara/anaconda3/envs/MGS/lib/python3.12/site-packages/torch/nn/modules/transformer.py:306: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.self_attn.batch_first was not True(use batch_first for better inference performance)
+  warnings.warn(f"enable_nested_tensor is True, but self.use_nested_tensor is False because {why_not_sparsity_fast_path}")
+/home/chiara/anaconda3/envs/MGS/lib/python3.12/site-packages/torch/nn/modules/transformer.py:306: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.self_attn.batch_first was not True(use batch_first for better inference performance)
+  warnings.warn(f"enable_nested_tensor is True, but self.use_nested_tensor is False because {why_not_sparsity_fast_path}")
+/home/chiara/anaconda3/envs/MGS/lib/python3.12/site-packages/torch/nn/modules/transformer.py:306: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.self_attn.batch_first was not True(use batch_first for better inference performance)
+  warnings.warn(f"enable_nested_tensor is True, but self.use_nested_tensor is False because {why_not_sparsity_fast_path}")
+/home/chiara/anaconda3/envs/MGS/lib/python3.12/site-packages/torch/nn/modules/transformer.py:306: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.self_attn.batch_first was not True(use batch_first for better inference performance)
+  warnings.warn(f"enable_nested_tensor is True, but self.use_nested_tensor is False because {why_not_sparsity_fast_path}")
+/home/chiara/anaconda3/envs/MGS/lib/python3.12/site-packages/torch/nn/modules/transformer.py:306: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.self_attn.batch_first was not True(use batch_first for better inference performance)
+  warnings.warn(f"enable_nested_tensor is True, but self.use_nested_tensor is False because {why_not_sparsity_fast_path}")
+/home/chiara/anaconda3/envs/MGS/lib/python3.12/site-packages/torch/nn/modules/transformer.py:306: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.self_attn.batch_first was not True(use batch_first for better inference performance)
+  warnings.warn(f"enable_nested_tensor is True, but self.use_nested_tensor is False because {why_not_sparsity_fast_path}")
+/home/chiara/anaconda3/envs/MGS/lib/python3.12/site-packages/torch/nn/modules/transformer.py:306: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.self_attn.batch_first was not True(use batch_first for better inference performance)
+  warnings.warn(f"enable_nested_tensor is True, but self.use_nested_tensor is False because {why_not_sparsity_fast_path}")
+/home/chiara/anaconda3/envs/MGS/lib/python3.12/site-packages/torch/nn/modules/transformer.py:306: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.self_attn.batch_first was not True(use batch_first for better inference performance)
+  warnings.warn(f"enable_nested_tensor is True, but self.use_nested_tensor is False because {why_not_sparsity_fast_path}")
+/home/chiara/anaconda3/envs/MGS/lib/python3.12/site-packages/torch/nn/modules/transformer.py:306: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.self_attn.batch_first was not True(use batch_first for better inference performance)
+  warnings.warn(f"enable_nested_tensor is True, but self.use_nested_tensor is False because {why_not_sparsity_fast_path}")
+/home/chiara/anaconda3/envs/MGS/lib/python3.12/site-packages/torch/nn/modules/transformer.py:306: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.self_attn.batch_first was not True(use batch_first for better inference performance)
+  warnings.warn(f"enable_nested_tensor is True, but self.use_nested_tensor is False because {why_not_sparsity_fast_path}")
+/home/chiara/anaconda3/envs/MGS/lib/python3.12/site-packages/torch/nn/modules/transformer.py:306: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.self_attn.batch_first was not True(use batch_first for better inference performance)
+  warnings.warn(f"enable_nested_tensor is True, but self.use_nested_tensor is False because {why_not_sparsity_fast_path}")
+/home/chiara/anaconda3/envs/MGS/lib/python3.12/site-packages/torch/nn/modules/transformer.py:306: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.self_attn.batch_first was not True(use batch_first for better inference performance)
+  warnings.warn(f"enable_nested_tensor is True, but self.use_nested_tensor is False because {why_not_sparsity_fast_path}")
+/home/chiara/anaconda3/envs/MGS/lib/python3.12/site-packages/torch/nn/modules/transformer.py:306: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.self_attn.batch_first was not True(use batch_first for better inference performance)
+  warnings.warn(f"enable_nested_tensor is True, but self.use_nested_tensor is False because {why_not_sparsity_fast_path}")
+/home/chiara/anaconda3/envs/MGS/lib/python3.12/site-packages/torch/nn/modules/transformer.py:306: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.self_attn.batch_first was not True(use batch_first for better inference performance)
+  warnings.warn(f"enable_nested_tensor is True, but self.use_nested_tensor is False because {why_not_sparsity_fast_path}")
+/home/chiara/anaconda3/envs/MGS/lib/python3.12/site-packages/torch/nn/modules/transformer.py:306: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.self_attn.batch_first was not True(use batch_first for better inference performance)
+  warnings.warn(f"enable_nested_tensor is True, but self.use_nested_tensor is False because {why_not_sparsity_fast_path}")
+/home/chiara/anaconda3/envs/MGS/lib/python3.12/site-packages/torch/nn/modules/transformer.py:306: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.self_attn.batch_first was not True(use batch_first for better inference performance)
+  warnings.warn(f"enable_nested_tensor is True, but self.use_nested_tensor is False because {why_not_sparsity_fast_path}")
+/home/chiara/anaconda3/envs/MGS/lib/python3.12/site-packages/torch/nn/modules/transformer.py:306: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.self_attn.batch_first was not True(use batch_first for better inference performance)
+  warnings.warn(f"enable_nested_tensor is True, but self.use_nested_tensor is False because {why_not_sparsity_fast_path}")
+/home/chiara/anaconda3/envs/MGS/lib/python3.12/site-packages/torch/nn/modules/transformer.py:306: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.self_attn.batch_first was not True(use batch_first for better inference performance)
+  warnings.warn(f"enable_nested_tensor is True, but self.use_nested_tensor is False because {why_not_sparsity_fast_path}")
+/home/chiara/anaconda3/envs/MGS/lib/python3.12/site-packages/torch/nn/modules/transformer.py:306: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.self_attn.batch_first was not True(use batch_first for better inference performance)
+  warnings.warn(f"enable_nested_tensor is True, but self.use_nested_tensor is False because {why_not_sparsity_fast_path}")
+/home/chiara/anaconda3/envs/MGS/lib/python3.12/site-packages/torch/nn/modules/transformer.py:306: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.self_attn.batch_first was not True(use batch_first for better inference performance)
+  warnings.warn(f"enable_nested_tensor is True, but self.use_nested_tensor is False because {why_not_sparsity_fast_path}")
+/home/chiara/anaconda3/envs/MGS/lib/python3.12/site-packages/torch/nn/modules/transformer.py:306: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.self_attn.batch_first was not True(use batch_first for better inference performance)
+  warnings.warn(f"enable_nested_tensor is True, but self.use_nested_tensor is False because {why_not_sparsity_fast_path}")
+/home/chiara/anaconda3/envs/MGS/lib/python3.12/site-packages/torch/nn/modules/transformer.py:306: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.self_attn.batch_first was not True(use batch_first for better inference performance)
+  warnings.warn(f"enable_nested_tensor is True, but self.use_nested_tensor is False because {why_not_sparsity_fast_path}")
+/home/chiara/anaconda3/envs/MGS/lib/python3.12/site-packages/torch/nn/modules/transformer.py:306: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.self_attn.batch_first was not True(use batch_first for better inference performance)
+  warnings.warn(f"enable_nested_tensor is True, but self.use_nested_tensor is False because {why_not_sparsity_fast_path}")
 DEVICE: cuda
-Train dataset size: 2413
-Test dataset size: 2413
+Train dataset size: 381
+Test dataset size: 381
 Train dataset shape: torch.Size([72]), torch.Size([72])
 Test dataset shape: torch.Size([72]), torch.Size([72])
-Epoch 1/2000 - Loss: 0.2332
-Epoch 2/2000 - Loss: 0.1589
-Epoch 3/2000 - Loss: 0.1362
-Epoch 4/2000 - Loss: 0.1403
-Epoch 5/2000 - Loss: 0.1283
-Epoch 6/2000 - Loss: 0.1332
-Epoch 7/2000 - Loss: 0.1327
-Epoch 8/2000 - Loss: 0.1308
-Epoch 9/2000 - Loss: 0.1301
-Epoch 10/2000 - Loss: 0.1316
-Epoch 11/2000 - Loss: 0.1213
-Epoch 12/2000 - Loss: 0.1290
-Epoch 13/2000 - Loss: 0.1306
-Epoch 14/2000 - Loss: 0.1311
-Epoch 15/2000 - Loss: 0.1286
-Epoch 16/2000 - Loss: 0.1210
-Epoch 17/2000 - Loss: 0.1265
-Epoch 18/2000 - Loss: 0.1172
-Epoch 19/2000 - Loss: 0.1255
-Epoch 20/2000 - Loss: 0.1234
-Epoch 21/2000 - Loss: 0.1236
-Epoch 22/2000 - Loss: 0.1258
-Epoch 23/2000 - Loss: 0.1192
-Epoch 24/2000 - Loss: 0.1196
-Epoch 25/2000 - Loss: 0.1323
-Epoch 26/2000 - Loss: 0.1192
-Epoch 27/2000 - Loss: 0.1207
-Epoch 28/2000 - Loss: 0.1176
-Epoch 29/2000 - Loss: 0.1274
-Epoch 30/2000 - Loss: 0.1242
-Epoch 31/2000 - Loss: 0.1246
-Epoch 32/2000 - Loss: 0.1226
-Epoch 33/2000 - Loss: 0.1236
-Epoch 34/2000 - Loss: 0.1158
-Epoch 35/2000 - Loss: 0.1202
-Epoch 36/2000 - Loss: 0.1211
-Epoch 37/2000 - Loss: 0.1259
-Epoch 38/2000 - Loss: 0.1256
-Epoch 39/2000 - Loss: 0.1224
-Epoch 40/2000 - Loss: 0.1140
-Epoch 41/2000 - Loss: 0.1274
-Epoch 42/2000 - Loss: 0.1202
-Epoch 43/2000 - Loss: 0.1250
-Epoch 44/2000 - Loss: 0.1140
-Epoch 45/2000 - Loss: 0.1228
-Epoch 46/2000 - Loss: 0.1236
-Epoch 47/2000 - Loss: 0.1225
-Epoch 48/2000 - Loss: 0.1119
-Epoch 49/2000 - Loss: 0.1280
-Epoch 50/2000 - Loss: 0.1204
-Epoch 51/2000 - Loss: 0.1189
-Epoch 52/2000 - Loss: 0.1141
-Epoch 53/2000 - Loss: 0.1212
-Epoch 54/2000 - Loss: 0.1258
-Epoch 55/2000 - Loss: 0.1242
-Epoch 56/2000 - Loss: 0.1183
-Epoch 57/2000 - Loss: 0.1123
-Epoch 58/2000 - Loss: 0.1192
-Epoch 59/2000 - Loss: 0.1181
-Epoch 60/2000 - Loss: 0.1134
-Epoch 61/2000 - Loss: 0.1154
-Epoch 62/2000 - Loss: 0.1222
-Epoch 63/2000 - Loss: 0.1139
-Epoch 64/2000 - Loss: 0.1262
-Epoch 65/2000 - Loss: 0.1259
-Epoch 66/2000 - Loss: 0.1213
-Epoch 67/2000 - Loss: 0.1226
-Epoch 68/2000 - Loss: 0.1181
-Epoch 69/2000 - Loss: 0.1150
-Epoch 70/2000 - Loss: 0.1198
-Epoch 71/2000 - Loss: 0.1265
-Epoch 72/2000 - Loss: 0.1276
-Epoch 73/2000 - Loss: 0.1238
-Epoch 74/2000 - Loss: 0.1181
-Epoch 75/2000 - Loss: 0.1207
-Epoch 76/2000 - Loss: 0.1224
-Epoch 77/2000 - Loss: 0.1207
-Epoch 78/2000 - Loss: 0.1257
-Epoch 79/2000 - Loss: 0.1180
-Epoch 80/2000 - Loss: 0.1134
-Epoch 81/2000 - Loss: 0.1225
-Epoch 82/2000 - Loss: 0.1209
-Epoch 83/2000 - Loss: 0.1159
-Epoch 84/2000 - Loss: 0.1199
-Epoch 85/2000 - Loss: 0.1197
-Epoch 86/2000 - Loss: 0.1220
-Epoch 87/2000 - Loss: 0.1209
-Epoch 88/2000 - Loss: 0.1161
-Epoch 89/2000 - Loss: 0.1198
-Epoch 90/2000 - Loss: 0.1199
-Epoch 91/2000 - Loss: 0.1253
-Epoch 92/2000 - Loss: 0.1243
-Epoch 93/2000 - Loss: 0.1171
-Epoch 94/2000 - Loss: 0.1198
-Epoch 95/2000 - Loss: 0.1153
-Epoch 96/2000 - Loss: 0.1259
-Epoch 97/2000 - Loss: 0.1226
-Epoch 98/2000 - Loss: 0.1197
-Epoch 99/2000 - Loss: 0.1111
-Epoch 100/2000 - Loss: 0.1261
-Epoch 101/2000 - Loss: 0.1246
-Epoch 102/2000 - Loss: 0.1199
-Epoch 103/2000 - Loss: 0.1127
-Epoch 104/2000 - Loss: 0.1196
-Epoch 105/2000 - Loss: 0.1186
-Epoch 106/2000 - Loss: 0.1159
-Epoch 107/2000 - Loss: 0.1166
-Epoch 108/2000 - Loss: 0.1206
-Epoch 109/2000 - Loss: 0.1198
-Epoch 110/2000 - Loss: 0.1226
-Epoch 111/2000 - Loss: 0.1207
-Epoch 112/2000 - Loss: 0.1233
-Epoch 113/2000 - Loss: 0.1229
-Epoch 114/2000 - Loss: 0.1254
-Epoch 115/2000 - Loss: 0.1271
-Epoch 116/2000 - Loss: 0.1178
-Epoch 117/2000 - Loss: 0.1154
-Epoch 118/2000 - Loss: 0.1218
-Epoch 119/2000 - Loss: 0.1254
-Epoch 120/2000 - Loss: 0.1151
-Epoch 121/2000 - Loss: 0.1225
-Epoch 122/2000 - Loss: 0.1202
-Epoch 123/2000 - Loss: 0.1235
-Epoch 124/2000 - Loss: 0.1184
-Epoch 125/2000 - Loss: 0.1163
-Epoch 126/2000 - Loss: 0.1138
-Epoch 127/2000 - Loss: 0.1284
-Epoch 128/2000 - Loss: 0.1162
-Epoch 129/2000 - Loss: 0.1217
-Epoch 130/2000 - Loss: 0.1230
-Epoch 131/2000 - Loss: 0.1155
-Epoch 132/2000 - Loss: 0.1167
-Epoch 133/2000 - Loss: 0.1185
-Epoch 134/2000 - Loss: 0.1156
-Epoch 135/2000 - Loss: 0.1168
-Epoch 136/2000 - Loss: 0.1215
-Epoch 137/2000 - Loss: 0.1240
-Epoch 138/2000 - Loss: 0.1244
-Epoch 139/2000 - Loss: 0.1153
-Epoch 140/2000 - Loss: 0.1198
-Epoch 141/2000 - Loss: 0.1169
-Epoch 142/2000 - Loss: 0.1239
-Epoch 143/2000 - Loss: 0.1170
-Epoch 144/2000 - Loss: 0.1231
-Epoch 145/2000 - Loss: 0.1186
-Epoch 146/2000 - Loss: 0.1205
-Epoch 147/2000 - Loss: 0.1249
-Epoch 148/2000 - Loss: 0.1181
-Epoch 149/2000 - Loss: 0.1192
-Epoch 150/2000 - Loss: 0.1143
-Epoch 151/2000 - Loss: 0.1175
-Epoch 152/2000 - Loss: 0.1165
-Epoch 153/2000 - Loss: 0.1144
-Epoch 154/2000 - Loss: 0.1108
-Epoch 155/2000 - Loss: 0.1206
-Epoch 156/2000 - Loss: 0.1203
-Epoch 157/2000 - Loss: 0.1162
-Epoch 158/2000 - Loss: 0.1212
-Epoch 159/2000 - Loss: 0.1224
-Epoch 160/2000 - Loss: 0.1190
-Epoch 161/2000 - Loss: 0.1139
-Epoch 162/2000 - Loss: 0.1227
-Epoch 163/2000 - Loss: 0.1189
-Epoch 164/2000 - Loss: 0.1175
-Epoch 165/2000 - Loss: 0.1219
-Epoch 166/2000 - Loss: 0.1188
-Epoch 167/2000 - Loss: 0.1128
-Epoch 168/2000 - Loss: 0.1191
-Epoch 169/2000 - Loss: 0.1174
-Epoch 170/2000 - Loss: 0.1224
-Epoch 171/2000 - Loss: 0.1166
-Epoch 172/2000 - Loss: 0.1280
-Epoch 173/2000 - Loss: 0.1164
-Epoch 174/2000 - Loss: 0.1209
-Epoch 175/2000 - Loss: 0.1259
-Epoch 176/2000 - Loss: 0.1155
-Epoch 177/2000 - Loss: 0.1195
-Epoch 178/2000 - Loss: 0.1181
-Epoch 179/2000 - Loss: 0.1150
-Epoch 180/2000 - Loss: 0.1219
-Epoch 181/2000 - Loss: 0.1266
-Epoch 182/2000 - Loss: 0.1147
-Epoch 183/2000 - Loss: 0.1208
-Epoch 184/2000 - Loss: 0.1126
-Epoch 185/2000 - Loss: 0.1201
-Epoch 186/2000 - Loss: 0.1179
-Epoch 187/2000 - Loss: 0.1182
-Epoch 188/2000 - Loss: 0.1239
-Epoch 189/2000 - Loss: 0.1297
-Epoch 190/2000 - Loss: 0.1206
-Epoch 191/2000 - Loss: 0.1261
-Epoch 192/2000 - Loss: 0.1151
-Epoch 193/2000 - Loss: 0.1200
-Epoch 194/2000 - Loss: 0.1211
-Epoch 195/2000 - Loss: 0.1174
-Epoch 196/2000 - Loss: 0.1184
-Epoch 197/2000 - Loss: 0.1198
-Epoch 198/2000 - Loss: 0.1246
-Epoch 199/2000 - Loss: 0.1228
-Epoch 200/2000 - Loss: 0.1202
-Epoch 201/2000 - Loss: 0.1154
-Epoch 202/2000 - Loss: 0.1196
-Epoch 203/2000 - Loss: 0.1150
-Epoch 204/2000 - Loss: 0.1138
-Epoch 205/2000 - Loss: 0.1207
-Epoch 206/2000 - Loss: 0.1205
-Epoch 207/2000 - Loss: 0.1223
-Epoch 208/2000 - Loss: 0.1129
-Epoch 209/2000 - Loss: 0.1228
-Epoch 210/2000 - Loss: 0.1176
-Epoch 211/2000 - Loss: 0.1219
-Epoch 212/2000 - Loss: 0.1168
-Epoch 213/2000 - Loss: 0.1180
-Epoch 214/2000 - Loss: 0.1242
-Epoch 215/2000 - Loss: 0.1186
-Epoch 216/2000 - Loss: 0.1239
-Epoch 217/2000 - Loss: 0.1206
-Epoch 218/2000 - Loss: 0.1186
-Epoch 219/2000 - Loss: 0.1132
-Epoch 220/2000 - Loss: 0.1111
-Epoch 221/2000 - Loss: 0.1214
-Epoch 222/2000 - Loss: 0.1268
-Epoch 223/2000 - Loss: 0.1178
-Epoch 224/2000 - Loss: 0.1172
-Epoch 225/2000 - Loss: 0.1232
-Epoch 226/2000 - Loss: 0.1207
-Epoch 227/2000 - Loss: 0.1190
-Epoch 228/2000 - Loss: 0.1239
-Epoch 229/2000 - Loss: 0.1199
-Epoch 230/2000 - Loss: 0.1137
-Epoch 231/2000 - Loss: 0.1139
-Epoch 232/2000 - Loss: 0.1157
-Epoch 233/2000 - Loss: 0.1170
-Epoch 234/2000 - Loss: 0.1198
-Epoch 235/2000 - Loss: 0.1256
-Epoch 236/2000 - Loss: 0.1182
-Epoch 237/2000 - Loss: 0.1127
-Epoch 238/2000 - Loss: 0.1095
-Epoch 239/2000 - Loss: 0.1180
-Epoch 240/2000 - Loss: 0.1230
-Epoch 241/2000 - Loss: 0.1168
-Epoch 242/2000 - Loss: 0.1166
-Epoch 243/2000 - Loss: 0.1276
-Epoch 244/2000 - Loss: 0.1176
-Epoch 245/2000 - Loss: 0.1220
-Epoch 246/2000 - Loss: 0.1203
-Epoch 247/2000 - Loss: 0.1251
-Epoch 248/2000 - Loss: 0.1183
-Epoch 249/2000 - Loss: 0.1093
-Epoch 250/2000 - Loss: 0.1146
-Epoch 251/2000 - Loss: 0.1143
-Epoch 252/2000 - Loss: 0.1176
-Epoch 253/2000 - Loss: 0.1123
-Epoch 254/2000 - Loss: 0.1207
-Epoch 255/2000 - Loss: 0.1202
-Epoch 256/2000 - Loss: 0.1249
-Epoch 257/2000 - Loss: 0.1182
-Epoch 258/2000 - Loss: 0.1168
-Epoch 259/2000 - Loss: 0.1291
-Epoch 260/2000 - Loss: 0.1188
-Epoch 261/2000 - Loss: 0.1092
-Epoch 262/2000 - Loss: 0.1217
-Epoch 263/2000 - Loss: 0.1187
-Epoch 264/2000 - Loss: 0.1149
-Epoch 265/2000 - Loss: 0.1161
-Epoch 266/2000 - Loss: 0.1251
-Epoch 267/2000 - Loss: 0.1112
-Epoch 268/2000 - Loss: 0.1151
-Epoch 269/2000 - Loss: 0.1256
-Epoch 270/2000 - Loss: 0.1230
-Epoch 271/2000 - Loss: 0.1094
-Epoch 272/2000 - Loss: 0.1188
-Epoch 273/2000 - Loss: 0.1176
-Epoch 274/2000 - Loss: 0.1225
-Epoch 275/2000 - Loss: 0.1204
-Epoch 276/2000 - Loss: 0.1149
-Epoch 277/2000 - Loss: 0.1215
-Epoch 278/2000 - Loss: 0.1163
-Epoch 279/2000 - Loss: 0.1200
-Epoch 280/2000 - Loss: 0.1182
-Epoch 281/2000 - Loss: 0.1139
-Epoch 282/2000 - Loss: 0.1170
-Epoch 283/2000 - Loss: 0.1152
-Epoch 284/2000 - Loss: 0.1211
-Epoch 285/2000 - Loss: 0.1163
-Epoch 286/2000 - Loss: 0.1175
-Epoch 287/2000 - Loss: 0.1205
-Epoch 288/2000 - Loss: 0.1173
-Epoch 289/2000 - Loss: 0.1096
-Epoch 290/2000 - Loss: 0.1156
-Epoch 291/2000 - Loss: 0.1196
-Epoch 292/2000 - Loss: 0.1219
-Epoch 293/2000 - Loss: 0.1181
-Epoch 294/2000 - Loss: 0.1150
-Epoch 295/2000 - Loss: 0.1183
-Epoch 296/2000 - Loss: 0.1168
-Epoch 297/2000 - Loss: 0.1257
-Epoch 298/2000 - Loss: 0.1174
-Epoch 299/2000 - Loss: 0.1173
-Epoch 300/2000 - Loss: 0.1214
-Epoch 301/2000 - Loss: 0.1149
-Epoch 302/2000 - Loss: 0.1206
-Epoch 303/2000 - Loss: 0.1204
-Epoch 304/2000 - Loss: 0.1239
-Epoch 305/2000 - Loss: 0.1161
-Epoch 306/2000 - Loss: 0.1228
-Epoch 307/2000 - Loss: 0.1176
-Epoch 308/2000 - Loss: 0.1260
-Epoch 309/2000 - Loss: 0.1199
-Epoch 310/2000 - Loss: 0.1159
-Epoch 311/2000 - Loss: 0.1136
-Epoch 312/2000 - Loss: 0.1191
-Epoch 313/2000 - Loss: 0.1142
-Epoch 314/2000 - Loss: 0.1167
-Epoch 315/2000 - Loss: 0.1158
-Epoch 316/2000 - Loss: 0.1280
-Epoch 317/2000 - Loss: 0.1095
-Epoch 318/2000 - Loss: 0.1214
-Epoch 319/2000 - Loss: 0.1115
-Epoch 320/2000 - Loss: 0.1220
-Epoch 321/2000 - Loss: 0.1197
-Epoch 322/2000 - Loss: 0.1148
-Epoch 323/2000 - Loss: 0.1131
-Epoch 324/2000 - Loss: 0.1221
-Epoch 325/2000 - Loss: 0.1264
-Epoch 326/2000 - Loss: 0.1253
-Epoch 327/2000 - Loss: 0.1239
-Epoch 328/2000 - Loss: 0.1173
-Epoch 329/2000 - Loss: 0.1295
-Epoch 330/2000 - Loss: 0.1166
-Epoch 331/2000 - Loss: 0.1148
-Epoch 332/2000 - Loss: 0.1188
-Epoch 333/2000 - Loss: 0.1182
-Epoch 334/2000 - Loss: 0.1155
-Epoch 335/2000 - Loss: 0.1137
-Epoch 336/2000 - Loss: 0.1147
-Epoch 337/2000 - Loss: 0.1203
-Epoch 338/2000 - Loss: 0.1181
-Epoch 339/2000 - Loss: 0.1147
-Epoch 340/2000 - Loss: 0.1196
-Epoch 341/2000 - Loss: 0.1181
-Epoch 342/2000 - Loss: 0.1188
-Epoch 343/2000 - Loss: 0.1165
-Epoch 344/2000 - Loss: 0.1167
-Epoch 345/2000 - Loss: 0.1199
-Epoch 346/2000 - Loss: 0.1179
-Epoch 347/2000 - Loss: 0.1215
-Epoch 348/2000 - Loss: 0.1258
-Epoch 349/2000 - Loss: 0.1188
-Epoch 350/2000 - Loss: 0.1157
-Epoch 351/2000 - Loss: 0.1193
-Epoch 352/2000 - Loss: 0.1180
-Epoch 353/2000 - Loss: 0.1259
-Epoch 354/2000 - Loss: 0.1216
-Epoch 355/2000 - Loss: 0.1199
-Epoch 356/2000 - Loss: 0.1200
-Epoch 357/2000 - Loss: 0.1162
-Epoch 358/2000 - Loss: 0.1220
-Epoch 359/2000 - Loss: 0.1143
-Epoch 360/2000 - Loss: 0.1195
-Epoch 361/2000 - Loss: 0.1200
-Epoch 362/2000 - Loss: 0.1111
-Epoch 363/2000 - Loss: 0.1277
-Epoch 364/2000 - Loss: 0.1119
-Epoch 365/2000 - Loss: 0.1185
-Epoch 366/2000 - Loss: 0.1199
-Epoch 367/2000 - Loss: 0.1186
-Epoch 368/2000 - Loss: 0.1185
-Epoch 369/2000 - Loss: 0.1243
-Epoch 370/2000 - Loss: 0.1169
-Epoch 371/2000 - Loss: 0.1216
-Epoch 372/2000 - Loss: 0.1180
-Epoch 373/2000 - Loss: 0.1238
-Epoch 374/2000 - Loss: 0.1192
-Epoch 375/2000 - Loss: 0.1179
-Epoch 376/2000 - Loss: 0.1294
-Epoch 377/2000 - Loss: 0.1145
-Epoch 378/2000 - Loss: 0.1184
-Epoch 379/2000 - Loss: 0.1258
-Epoch 380/2000 - Loss: 0.1144
-Epoch 381/2000 - Loss: 0.1180
-Epoch 382/2000 - Loss: 0.1136
-Epoch 383/2000 - Loss: 0.1199
-Epoch 384/2000 - Loss: 0.1132
-Epoch 385/2000 - Loss: 0.1184
-Epoch 386/2000 - Loss: 0.1191
-Epoch 387/2000 - Loss: 0.1139
-Epoch 388/2000 - Loss: 0.1176
-Epoch 389/2000 - Loss: 0.1183
-Epoch 390/2000 - Loss: 0.1174
-Epoch 391/2000 - Loss: 0.1149
-Epoch 392/2000 - Loss: 0.1184
-Epoch 393/2000 - Loss: 0.1204
-Epoch 394/2000 - Loss: 0.1125
-Epoch 395/2000 - Loss: 0.1182
-Epoch 396/2000 - Loss: 0.1116
-Epoch 397/2000 - Loss: 0.1219
-Epoch 398/2000 - Loss: 0.1184
-Epoch 399/2000 - Loss: 0.1172
-Epoch 400/2000 - Loss: 0.1165
-Epoch 401/2000 - Loss: 0.1220
-Epoch 402/2000 - Loss: 0.1125
-Epoch 403/2000 - Loss: 0.1220
-Epoch 404/2000 - Loss: 0.1208
-Epoch 405/2000 - Loss: 0.1127
-Epoch 406/2000 - Loss: 0.1192
-Epoch 407/2000 - Loss: 0.1144
-Epoch 408/2000 - Loss: 0.1206
-Epoch 409/2000 - Loss: 0.1204
-Epoch 410/2000 - Loss: 0.1194
-Epoch 411/2000 - Loss: 0.1210
-Epoch 412/2000 - Loss: 0.1180
-Epoch 413/2000 - Loss: 0.1206
-Epoch 414/2000 - Loss: 0.1245
-Epoch 415/2000 - Loss: 0.1205
-Epoch 416/2000 - Loss: 0.1216
-Epoch 417/2000 - Loss: 0.1231
-Epoch 418/2000 - Loss: 0.1178
-Epoch 419/2000 - Loss: 0.1258
-Epoch 420/2000 - Loss: 0.1143
-Epoch 421/2000 - Loss: 0.1242
-Epoch 422/2000 - Loss: 0.1165
-Epoch 423/2000 - Loss: 0.1196
-Epoch 424/2000 - Loss: 0.1143
-Epoch 425/2000 - Loss: 0.1180
-Epoch 426/2000 - Loss: 0.1196
-Epoch 427/2000 - Loss: 0.1219
-Epoch 428/2000 - Loss: 0.1115
-Epoch 429/2000 - Loss: 0.1198
-Epoch 430/2000 - Loss: 0.1178
-Epoch 431/2000 - Loss: 0.1144
-Epoch 432/2000 - Loss: 0.1134
-Epoch 433/2000 - Loss: 0.1198
-Epoch 434/2000 - Loss: 0.1137
-Epoch 435/2000 - Loss: 0.1184
-Epoch 436/2000 - Loss: 0.1214
-Epoch 437/2000 - Loss: 0.1253
-Epoch 438/2000 - Loss: 0.1184
-Epoch 439/2000 - Loss: 0.1329
-Epoch 440/2000 - Loss: 0.1219
-Epoch 441/2000 - Loss: 0.1128
-Epoch 442/2000 - Loss: 0.1202
-Epoch 443/2000 - Loss: 0.1174
-Epoch 444/2000 - Loss: 0.1133
-Epoch 445/2000 - Loss: 0.1153
-Epoch 446/2000 - Loss: 0.1184
-Epoch 447/2000 - Loss: 0.1202
-Epoch 448/2000 - Loss: 0.1202
-Epoch 449/2000 - Loss: 0.1198
-Epoch 450/2000 - Loss: 0.1111
-Epoch 451/2000 - Loss: 0.1213
-Epoch 452/2000 - Loss: 0.1182
-Epoch 453/2000 - Loss: 0.1199
-Epoch 454/2000 - Loss: 0.1129
-Epoch 455/2000 - Loss: 0.1160
-Epoch 456/2000 - Loss: 0.1136
-Epoch 457/2000 - Loss: 0.1257
-Epoch 458/2000 - Loss: 0.1190
-Epoch 459/2000 - Loss: 0.1190
-Epoch 460/2000 - Loss: 0.1120
-Epoch 461/2000 - Loss: 0.1162
-Epoch 462/2000 - Loss: 0.1188
-Epoch 463/2000 - Loss: 0.1190
-Epoch 464/2000 - Loss: 0.1109
-Epoch 465/2000 - Loss: 0.1182
-Epoch 466/2000 - Loss: 0.1120
-Epoch 467/2000 - Loss: 0.1176
-Epoch 468/2000 - Loss: 0.1183
-Epoch 469/2000 - Loss: 0.1178
-Epoch 470/2000 - Loss: 0.1239
-Epoch 471/2000 - Loss: 0.1201
-Epoch 472/2000 - Loss: 0.1152
-Epoch 473/2000 - Loss: 0.1219
-Epoch 474/2000 - Loss: 0.1219
-Epoch 475/2000 - Loss: 0.1163
-Epoch 476/2000 - Loss: 0.1234
-Epoch 477/2000 - Loss: 0.1257
-Epoch 478/2000 - Loss: 0.1134
-Epoch 479/2000 - Loss: 0.1249
-Epoch 480/2000 - Loss: 0.1177
-Epoch 481/2000 - Loss: 0.1227
-Epoch 482/2000 - Loss: 0.1129
-Epoch 483/2000 - Loss: 0.1161
-Epoch 484/2000 - Loss: 0.1152
-Epoch 485/2000 - Loss: 0.1230
-Epoch 486/2000 - Loss: 0.1271
-Epoch 487/2000 - Loss: 0.1155
-Epoch 488/2000 - Loss: 0.1241
-Epoch 489/2000 - Loss: 0.1191
-Epoch 490/2000 - Loss: 0.1194
-Epoch 491/2000 - Loss: 0.1217
-Epoch 492/2000 - Loss: 0.1104
-Epoch 493/2000 - Loss: 0.1184
-Epoch 494/2000 - Loss: 0.1194
-Epoch 495/2000 - Loss: 0.1159
-Epoch 496/2000 - Loss: 0.1192
-Epoch 497/2000 - Loss: 0.1164
-Epoch 498/2000 - Loss: 0.1169
-Epoch 499/2000 - Loss: 0.1135
-Epoch 500/2000 - Loss: 0.1279
-Epoch 501/2000 - Loss: 0.1212
-Epoch 502/2000 - Loss: 0.1166
-Epoch 503/2000 - Loss: 0.1202
-Epoch 504/2000 - Loss: 0.1196
-Epoch 505/2000 - Loss: 0.1190
-Epoch 506/2000 - Loss: 0.1149
-Epoch 507/2000 - Loss: 0.1235
-Epoch 508/2000 - Loss: 0.1207
-Epoch 509/2000 - Loss: 0.1197
-Epoch 510/2000 - Loss: 0.1133
-Epoch 511/2000 - Loss: 0.1231
-Epoch 512/2000 - Loss: 0.1260
-Epoch 513/2000 - Loss: 0.1187
-Epoch 514/2000 - Loss: 0.1221
-Epoch 515/2000 - Loss: 0.1133
-Epoch 516/2000 - Loss: 0.1188
-Epoch 517/2000 - Loss: 0.1215
-Epoch 518/2000 - Loss: 0.1249
-Epoch 519/2000 - Loss: 0.1232
-Epoch 520/2000 - Loss: 0.1143
-Epoch 521/2000 - Loss: 0.1190
-Epoch 522/2000 - Loss: 0.1188
-Epoch 523/2000 - Loss: 0.1178
-Epoch 524/2000 - Loss: 0.1145
-Epoch 525/2000 - Loss: 0.1192
-Epoch 526/2000 - Loss: 0.1208
-Epoch 527/2000 - Loss: 0.1169
-Epoch 528/2000 - Loss: 0.1140
-Epoch 529/2000 - Loss: 0.1151
-Epoch 530/2000 - Loss: 0.1190
-Epoch 531/2000 - Loss: 0.1144
-Epoch 532/2000 - Loss: 0.1158
-Epoch 533/2000 - Loss: 0.1125
-Epoch 534/2000 - Loss: 0.1217
-Epoch 535/2000 - Loss: 0.1180
-Epoch 536/2000 - Loss: 0.1118
-Epoch 537/2000 - Loss: 0.1213
-Epoch 538/2000 - Loss: 0.1248
-Epoch 539/2000 - Loss: 0.1218
-Epoch 540/2000 - Loss: 0.1233
-Epoch 541/2000 - Loss: 0.1183
-Epoch 542/2000 - Loss: 0.1228
-Epoch 543/2000 - Loss: 0.1172
+Predictions and actual values saved to /home/chiara/Energy/PRED/ddpm_predictions
+Iteration 0 completed.
+DEVICE: cuda
+Train dataset size: 381
+Test dataset size: 381
+Train dataset shape: torch.Size([72]), torch.Size([72])
+Test dataset shape: torch.Size([72]), torch.Size([72])
+Predictions and actual values saved to /home/chiara/Energy/PRED/ddpm_predictions
+Iteration 1 completed.
+DEVICE: cuda
+Train dataset size: 381
+Test dataset size: 381
+Train dataset shape: torch.Size([72]), torch.Size([72])
+Test dataset shape: torch.Size([72]), torch.Size([72])
+Predictions and actual values saved to /home/chiara/Energy/PRED/ddpm_predictions
+Iteration 2 completed.
+DEVICE: cuda
+Train dataset size: 381
+Test dataset size: 381
+Train dataset shape: torch.Size([72]), torch.Size([72])
+Test dataset shape: torch.Size([72]), torch.Size([72])
+Predictions and actual values saved to /home/chiara/Energy/PRED/ddpm_predictions
+Iteration 3 completed.
+DEVICE: cuda
+Train dataset size: 381
+Test dataset size: 381
+Train dataset shape: torch.Size([72]), torch.Size([72])
+Test dataset shape: torch.Size([72]), torch.Size([72])
+Predictions and actual values saved to /home/chiara/Energy/PRED/ddpm_predictions
+Iteration 4 completed.
+DEVICE: cuda
+Train dataset size: 381
+Test dataset size: 381
+Train dataset shape: torch.Size([72]), torch.Size([72])
+Test dataset shape: torch.Size([72]), torch.Size([72])
+Predictions and actual values saved to /home/chiara/Energy/PRED/ddpm_predictions
+Iteration 5 completed.
+DEVICE: cuda
+Train dataset size: 381
+Test dataset size: 381
+Train dataset shape: torch.Size([72]), torch.Size([72])
+Test dataset shape: torch.Size([72]), torch.Size([72])
+Predictions and actual values saved to /home/chiara/Energy/PRED/ddpm_predictions
+Iteration 6 completed.
+DEVICE: cuda
+Train dataset size: 381
+Test dataset size: 381
+Train dataset shape: torch.Size([72]), torch.Size([72])
+Test dataset shape: torch.Size([72]), torch.Size([72])
+Predictions and actual values saved to /home/chiara/Energy/PRED/ddpm_predictions
+Iteration 7 completed.
+DEVICE: cuda
+Train dataset size: 381
+Test dataset size: 381
+Train dataset shape: torch.Size([72]), torch.Size([72])
+Test dataset shape: torch.Size([72]), torch.Size([72])
+Predictions and actual values saved to /home/chiara/Energy/PRED/ddpm_predictions
+Iteration 8 completed.
+DEVICE: cuda
+Train dataset size: 381
+Test dataset size: 381
+Train dataset shape: torch.Size([72]), torch.Size([72])
+Test dataset shape: torch.Size([72]), torch.Size([72])
+Predictions and actual values saved to /home/chiara/Energy/PRED/ddpm_predictions
+Iteration 9 completed.
+DEVICE: cuda
+Train dataset size: 381
+Test dataset size: 381
+Train dataset shape: torch.Size([72]), torch.Size([72])
+Test dataset shape: torch.Size([72]), torch.Size([72])
+Predictions and actual values saved to /home/chiara/Energy/PRED/ddpm_predictions
+Iteration 10 completed.
+DEVICE: cuda
+Train dataset size: 381
+Test dataset size: 381
+Train dataset shape: torch.Size([72]), torch.Size([72])
+Test dataset shape: torch.Size([72]), torch.Size([72])
+Predictions and actual values saved to /home/chiara/Energy/PRED/ddpm_predictions
+Iteration 11 completed.
+DEVICE: cuda
+Train dataset size: 381
+Test dataset size: 381
+Train dataset shape: torch.Size([72]), torch.Size([72])
+Test dataset shape: torch.Size([72]), torch.Size([72])
+Predictions and actual values saved to /home/chiara/Energy/PRED/ddpm_predictions
+Iteration 12 completed.
+DEVICE: cuda
+Train dataset size: 381
+Test dataset size: 381
+Train dataset shape: torch.Size([72]), torch.Size([72])
+Test dataset shape: torch.Size([72]), torch.Size([72])
+Predictions and actual values saved to /home/chiara/Energy/PRED/ddpm_predictions
+Iteration 13 completed.
+DEVICE: cuda
+Train dataset size: 381
+Test dataset size: 381
+Train dataset shape: torch.Size([72]), torch.Size([72])
+Test dataset shape: torch.Size([72]), torch.Size([72])
+Predictions and actual values saved to /home/chiara/Energy/PRED/ddpm_predictions
+Iteration 14 completed.
+DEVICE: cuda
+Train dataset size: 381
+Test dataset size: 381
+Train dataset shape: torch.Size([72]), torch.Size([72])
+Test dataset shape: torch.Size([72]), torch.Size([72])
+Predictions and actual values saved to /home/chiara/Energy/PRED/ddpm_predictions
+Iteration 15 completed.
+DEVICE: cuda
+Train dataset size: 381
+Test dataset size: 381
+Train dataset shape: torch.Size([72]), torch.Size([72])
+Test dataset shape: torch.Size([72]), torch.Size([72])
+Predictions and actual values saved to /home/chiara/Energy/PRED/ddpm_predictions
+Iteration 16 completed.
+DEVICE: cuda
+Train dataset size: 381
+Test dataset size: 381
+Train dataset shape: torch.Size([72]), torch.Size([72])
+Test dataset shape: torch.Size([72]), torch.Size([72])
+Predictions and actual values saved to /home/chiara/Energy/PRED/ddpm_predictions
+Iteration 17 completed.
+DEVICE: cuda
+Train dataset size: 381
+Test dataset size: 381
+Train dataset shape: torch.Size([72]), torch.Size([72])
+Test dataset shape: torch.Size([72]), torch.Size([72])
+Predictions and actual values saved to /home/chiara/Energy/PRED/ddpm_predictions
+Iteration 18 completed.
+DEVICE: cuda
+Train dataset size: 381
+Test dataset size: 381
+Train dataset shape: torch.Size([72]), torch.Size([72])
+Test dataset shape: torch.Size([72]), torch.Size([72])
+Predictions and actual values saved to /home/chiara/Energy/PRED/ddpm_predictions
+Iteration 19 completed.
+DEVICE: cuda
+Train dataset size: 381
+Test dataset size: 381
+Train dataset shape: torch.Size([72]), torch.Size([72])
+Test dataset shape: torch.Size([72]), torch.Size([72])
+Predictions and actual values saved to /home/chiara/Energy/PRED/ddpm_predictions
+Iteration 20 completed.
+DEVICE: cuda
+Train dataset size: 381
+Test dataset size: 381
+Train dataset shape: torch.Size([72]), torch.Size([72])
+Test dataset shape: torch.Size([72]), torch.Size([72])
+Predictions and actual values saved to /home/chiara/Energy/PRED/ddpm_predictions
+Iteration 21 completed.
+DEVICE: cuda
+Train dataset size: 381
+Test dataset size: 381
+Train dataset shape: torch.Size([72]), torch.Size([72])
+Test dataset shape: torch.Size([72]), torch.Size([72])
+Predictions and actual values saved to /home/chiara/Energy/PRED/ddpm_predictions
+Iteration 22 completed.
+DEVICE: cuda
+Train dataset size: 381
+Test dataset size: 381
+Train dataset shape: torch.Size([72]), torch.Size([72])
+Test dataset shape: torch.Size([72]), torch.Size([72])
+Predictions and actual values saved to /home/chiara/Energy/PRED/ddpm_predictions
+Iteration 23 completed.
+DEVICE: cuda
+Train dataset size: 381
+Test dataset size: 381
+Train dataset shape: torch.Size([72]), torch.Size([72])
+Test dataset shape: torch.Size([72]), torch.Size([72])
+Predictions and actual values saved to /home/chiara/Energy/PRED/ddpm_predictions
+Iteration 24 completed.
+DEVICE: cuda
+Train dataset size: 381
+Test dataset size: 381
+Train dataset shape: torch.Size([72]), torch.Size([72])
+Test dataset shape: torch.Size([72]), torch.Size([72])
+Predictions and actual values saved to /home/chiara/Energy/PRED/ddpm_predictions
+Iteration 25 completed.
+DEVICE: cuda
+Train dataset size: 381
+Test dataset size: 381
+Train dataset shape: torch.Size([72]), torch.Size([72])
+Test dataset shape: torch.Size([72]), torch.Size([72])
+Predictions and actual values saved to /home/chiara/Energy/PRED/ddpm_predictions
+Iteration 26 completed.
+DEVICE: cuda
+Train dataset size: 381
+Test dataset size: 381
+Train dataset shape: torch.Size([72]), torch.Size([72])
+Test dataset shape: torch.Size([72]), torch.Size([72])
+Predictions and actual values saved to /home/chiara/Energy/PRED/ddpm_predictions
+Iteration 27 completed.
+DEVICE: cuda
+Train dataset size: 381
+Test dataset size: 381
+Train dataset shape: torch.Size([72]), torch.Size([72])
+Test dataset shape: torch.Size([72]), torch.Size([72])
+Predictions and actual values saved to /home/chiara/Energy/PRED/ddpm_predictions
+Iteration 28 completed.
+DEVICE: cuda
+Train dataset size: 381
+Test dataset size: 381
+Train dataset shape: torch.Size([72]), torch.Size([72])
+Test dataset shape: torch.Size([72]), torch.Size([72])
+/home/chiara/anaconda3/envs/MGS/lib/python3.12/site-packages/torch/nn/modules/transformer.py:306: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.self_attn.batch_first was not True(use batch_first for better inference performance)
+  warnings.warn(f"enable_nested_tensor is True, but self.use_nested_tensor is False because {why_not_sparsity_fast_path}")
+/home/chiara/anaconda3/envs/MGS/lib/python3.12/site-packages/torch/nn/modules/transformer.py:306: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.self_attn.batch_first was not True(use batch_first for better inference performance)
+  warnings.warn(f"enable_nested_tensor is True, but self.use_nested_tensor is False because {why_not_sparsity_fast_path}")
+/home/chiara/anaconda3/envs/MGS/lib/python3.12/site-packages/torch/nn/modules/transformer.py:306: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.self_attn.batch_first was not True(use batch_first for better inference performance)
+  warnings.warn(f"enable_nested_tensor is True, but self.use_nested_tensor is False because {why_not_sparsity_fast_path}")
+/home/chiara/anaconda3/envs/MGS/lib/python3.12/site-packages/torch/nn/modules/transformer.py:306: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.self_attn.batch_first was not True(use batch_first for better inference performance)
+  warnings.warn(f"enable_nested_tensor is True, but self.use_nested_tensor is False because {why_not_sparsity_fast_path}")
+/home/chiara/anaconda3/envs/MGS/lib/python3.12/site-packages/torch/nn/modules/transformer.py:306: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.self_attn.batch_first was not True(use batch_first for better inference performance)
+  warnings.warn(f"enable_nested_tensor is True, but self.use_nested_tensor is False because {why_not_sparsity_fast_path}")
+/home/chiara/anaconda3/envs/MGS/lib/python3.12/site-packages/torch/nn/modules/transformer.py:306: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.self_attn.batch_first was not True(use batch_first for better inference performance)
+  warnings.warn(f"enable_nested_tensor is True, but self.use_nested_tensor is False because {why_not_sparsity_fast_path}")
+/home/chiara/anaconda3/envs/MGS/lib/python3.12/site-packages/torch/nn/modules/transformer.py:306: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.self_attn.batch_first was not True(use batch_first for better inference performance)
+  warnings.warn(f"enable_nested_tensor is True, but self.use_nested_tensor is False because {why_not_sparsity_fast_path}")
+/home/chiara/anaconda3/envs/MGS/lib/python3.12/site-packages/torch/nn/modules/transformer.py:306: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.self_attn.batch_first was not True(use batch_first for better inference performance)
+  warnings.warn(f"enable_nested_tensor is True, but self.use_nested_tensor is False because {why_not_sparsity_fast_path}")
+/home/chiara/anaconda3/envs/MGS/lib/python3.12/site-packages/torch/nn/modules/transformer.py:306: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.self_attn.batch_first was not True(use batch_first for better inference performance)
+  warnings.warn(f"enable_nested_tensor is True, but self.use_nested_tensor is False because {why_not_sparsity_fast_path}")
+/home/chiara/anaconda3/envs/MGS/lib/python3.12/site-packages/torch/nn/modules/transformer.py:306: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.self_attn.batch_first was not True(use batch_first for better inference performance)
+  warnings.warn(f"enable_nested_tensor is True, but self.use_nested_tensor is False because {why_not_sparsity_fast_path}")
+/home/chiara/anaconda3/envs/MGS/lib/python3.12/site-packages/torch/nn/modules/transformer.py:306: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.self_attn.batch_first was not True(use batch_first for better inference performance)
+  warnings.warn(f"enable_nested_tensor is True, but self.use_nested_tensor is False because {why_not_sparsity_fast_path}")
+/home/chiara/anaconda3/envs/MGS/lib/python3.12/site-packages/torch/nn/modules/transformer.py:306: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.self_attn.batch_first was not True(use batch_first for better inference performance)
+  warnings.warn(f"enable_nested_tensor is True, but self.use_nested_tensor is False because {why_not_sparsity_fast_path}")
+/home/chiara/anaconda3/envs/MGS/lib/python3.12/site-packages/torch/nn/modules/transformer.py:306: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.self_attn.batch_first was not True(use batch_first for better inference performance)
+  warnings.warn(f"enable_nested_tensor is True, but self.use_nested_tensor is False because {why_not_sparsity_fast_path}")
+/home/chiara/anaconda3/envs/MGS/lib/python3.12/site-packages/torch/nn/modules/transformer.py:306: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.self_attn.batch_first was not True(use batch_first for better inference performance)
+  warnings.warn(f"enable_nested_tensor is True, but self.use_nested_tensor is False because {why_not_sparsity_fast_path}")
+/home/chiara/anaconda3/envs/MGS/lib/python3.12/site-packages/torch/nn/modules/transformer.py:306: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.self_attn.batch_first was not True(use batch_first for better inference performance)
+  warnings.warn(f"enable_nested_tensor is True, but self.use_nested_tensor is False because {why_not_sparsity_fast_path}")
+/home/chiara/anaconda3/envs/MGS/lib/python3.12/site-packages/torch/nn/modules/transformer.py:306: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.self_attn.batch_first was not True(use batch_first for better inference performance)
+  warnings.warn(f"enable_nested_tensor is True, but self.use_nested_tensor is False because {why_not_sparsity_fast_path}")
+/home/chiara/anaconda3/envs/MGS/lib/python3.12/site-packages/torch/nn/modules/transformer.py:306: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.self_attn.batch_first was not True(use batch_first for better inference performance)
+  warnings.warn(f"enable_nested_tensor is True, but self.use_nested_tensor is False because {why_not_sparsity_fast_path}")
+/home/chiara/anaconda3/envs/MGS/lib/python3.12/site-packages/torch/nn/modules/transformer.py:306: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.self_attn.batch_first was not True(use batch_first for better inference performance)
+  warnings.warn(f"enable_nested_tensor is True, but self.use_nested_tensor is False because {why_not_sparsity_fast_path}")
+/home/chiara/anaconda3/envs/MGS/lib/python3.12/site-packages/torch/nn/modules/transformer.py:306: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.self_attn.batch_first was not True(use batch_first for better inference performance)
+  warnings.warn(f"enable_nested_tensor is True, but self.use_nested_tensor is False because {why_not_sparsity_fast_path}")
+/home/chiara/anaconda3/envs/MGS/lib/python3.12/site-packages/torch/nn/modules/transformer.py:306: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.self_attn.batch_first was not True(use batch_first for better inference performance)
+  warnings.warn(f"enable_nested_tensor is True, but self.use_nested_tensor is False because {why_not_sparsity_fast_path}")
+Predictions and actual values saved to /home/chiara/Energy/PRED/ddpm_predictions
+Iteration 29 completed.
+DEVICE: cuda
+Train dataset size: 381
+Test dataset size: 381
+Train dataset shape: torch.Size([72]), torch.Size([72])
+Test dataset shape: torch.Size([72]), torch.Size([72])
+Predictions and actual values saved to /home/chiara/Energy/PRED/ddpm_predictions
+Iteration 30 completed.
+DEVICE: cuda
+Train dataset size: 381
+Test dataset size: 381
+Train dataset shape: torch.Size([72]), torch.Size([72])
+Test dataset shape: torch.Size([72]), torch.Size([72])
+Predictions and actual values saved to /home/chiara/Energy/PRED/ddpm_predictions
+Iteration 31 completed.
+DEVICE: cuda
+Train dataset size: 381
+Test dataset size: 381
+Train dataset shape: torch.Size([72]), torch.Size([72])
+Test dataset shape: torch.Size([72]), torch.Size([72])
+Predictions and actual values saved to /home/chiara/Energy/PRED/ddpm_predictions
+Iteration 32 completed.
+DEVICE: cuda
+Train dataset size: 381
+Test dataset size: 381
+Train dataset shape: torch.Size([72]), torch.Size([72])
+Test dataset shape: torch.Size([72]), torch.Size([72])
+Predictions and actual values saved to /home/chiara/Energy/PRED/ddpm_predictions
+Iteration 33 completed.
+DEVICE: cuda
+Train dataset size: 381
+Test dataset size: 381
+Train dataset shape: torch.Size([72]), torch.Size([72])
+Test dataset shape: torch.Size([72]), torch.Size([72])
+Predictions and actual values saved to /home/chiara/Energy/PRED/ddpm_predictions
+Iteration 34 completed.
+DEVICE: cuda
+Train dataset size: 381
+Test dataset size: 381
+Train dataset shape: torch.Size([72]), torch.Size([72])
+Test dataset shape: torch.Size([72]), torch.Size([72])
+Predictions and actual values saved to /home/chiara/Energy/PRED/ddpm_predictions
+Iteration 35 completed.
+DEVICE: cuda
+Train dataset size: 381
+Test dataset size: 381
+Train dataset shape: torch.Size([72]), torch.Size([72])
+Test dataset shape: torch.Size([72]), torch.Size([72])
+Predictions and actual values saved to /home/chiara/Energy/PRED/ddpm_predictions
+Iteration 36 completed.
+DEVICE: cuda
+Train dataset size: 381
+Test dataset size: 381
+Train dataset shape: torch.Size([72]), torch.Size([72])
+Test dataset shape: torch.Size([72]), torch.Size([72])
+Predictions and actual values saved to /home/chiara/Energy/PRED/ddpm_predictions
+Iteration 37 completed.
+DEVICE: cuda
+Train dataset size: 381
+Test dataset size: 381
+Train dataset shape: torch.Size([72]), torch.Size([72])
+Test dataset shape: torch.Size([72]), torch.Size([72])
+Predictions and actual values saved to /home/chiara/Energy/PRED/ddpm_predictions
+Iteration 38 completed.
+DEVICE: cuda
+Train dataset size: 381
+Test dataset size: 381
+Train dataset shape: torch.Size([72]), torch.Size([72])
+Test dataset shape: torch.Size([72]), torch.Size([72])
+Predictions and actual values saved to /home/chiara/Energy/PRED/ddpm_predictions
+Iteration 39 completed.
+DEVICE: cuda
+Train dataset size: 381
+Test dataset size: 381
+Train dataset shape: torch.Size([72]), torch.Size([72])
+Test dataset shape: torch.Size([72]), torch.Size([72])
+Predictions and actual values saved to /home/chiara/Energy/PRED/ddpm_predictions
+Iteration 40 completed.
+DEVICE: cuda
+Train dataset size: 381
+Test dataset size: 381
+Train dataset shape: torch.Size([72]), torch.Size([72])
+Test dataset shape: torch.Size([72]), torch.Size([72])
+Predictions and actual values saved to /home/chiara/Energy/PRED/ddpm_predictions
+Iteration 41 completed.
+DEVICE: cuda
+Train dataset size: 381
+Test dataset size: 381
+Train dataset shape: torch.Size([72]), torch.Size([72])
+Test dataset shape: torch.Size([72]), torch.Size([72])
+Predictions and actual values saved to /home/chiara/Energy/PRED/ddpm_predictions
+Iteration 42 completed.
+DEVICE: cuda
+Train dataset size: 381
+Test dataset size: 381
+Train dataset shape: torch.Size([72]), torch.Size([72])
+Test dataset shape: torch.Size([72]), torch.Size([72])
+Predictions and actual values saved to /home/chiara/Energy/PRED/ddpm_predictions
+Iteration 43 completed.
+DEVICE: cuda
+Train dataset size: 381
+Test dataset size: 381
+Train dataset shape: torch.Size([72]), torch.Size([72])
+Test dataset shape: torch.Size([72]), torch.Size([72])
+Predictions and actual values saved to /home/chiara/Energy/PRED/ddpm_predictions
+Iteration 44 completed.
+DEVICE: cuda
+Train dataset size: 381
+Test dataset size: 381
+Train dataset shape: torch.Size([72]), torch.Size([72])
+Test dataset shape: torch.Size([72]), torch.Size([72])
+Predictions and actual values saved to /home/chiara/Energy/PRED/ddpm_predictions
+Iteration 45 completed.
+DEVICE: cuda
+Train dataset size: 381
+Test dataset size: 381
+Train dataset shape: torch.Size([72]), torch.Size([72])
+Test dataset shape: torch.Size([72]), torch.Size([72])
+Predictions and actual values saved to /home/chiara/Energy/PRED/ddpm_predictions
+Iteration 46 completed.
+DEVICE: cuda
+Train dataset size: 381
+Test dataset size: 381
+Train dataset shape: torch.Size([72]), torch.Size([72])
+Test dataset shape: torch.Size([72]), torch.Size([72])
+Predictions and actual values saved to /home/chiara/Energy/PRED/ddpm_predictions
+Iteration 47 completed.
+DEVICE: cuda
+Train dataset size: 381
+Test dataset size: 381
+Train dataset shape: torch.Size([72]), torch.Size([72])
+Test dataset shape: torch.Size([72]), torch.Size([72])
+Predictions and actual values saved to /home/chiara/Energy/PRED/ddpm_predictions
+Iteration 48 completed.
+DEVICE: cuda
+Train dataset size: 381
+Test dataset size: 381
+Train dataset shape: torch.Size([72]), torch.Size([72])
+Test dataset shape: torch.Size([72]), torch.Size([72])
+Predictions and actual values saved to /home/chiara/Energy/PRED/ddpm_predictions
+Iteration 49 completed.

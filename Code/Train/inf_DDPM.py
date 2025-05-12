@@ -4,7 +4,7 @@ import torch
 import torch.nn as nn
 from torch.utils.data import Dataset, DataLoader
 
-from ut import EnergyDatasetFromRows
+from ut import EnergyDataset2
 from torchvision import transforms
 from tensorboardX import SummaryWriter
 import matplotlib.pyplot as plt
@@ -14,8 +14,8 @@ EPOCHS = 2000
 
 res = SummaryWriter(log_dir="/home/chiara/Energy/LOG", flush_secs=5)
 # Hyperparameters
-INPUT_LEN = 1550
-OUTPUT_LEN = 240
+INPUT_LEN = 72
+OUTPUT_LEN = 72
 BATCH_SIZE = 16
 
 TIMESTEPS = 1000
@@ -23,7 +23,7 @@ LR = 1e-4
 TRAIN_SPLIT = 0.9 
 
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-CSV_PATH = "/home/chiara/Energy/Data/SET_1790.csv"  # ← Replace this with your actual file
+CSV_PATH = "/home/chiara/Energy/Data/Test_2m_72.csv"  # ← Replace this with your actual file
 SAVE_CSV = "/home/chiara/Energy/PRED/ddpm_predictions"
 
 # --------------------- DIFFUSION ---------------------
@@ -96,8 +96,8 @@ def sample(model, diffusion, cond):
 
 def main(jj):
     
-    train_df = EnergyDatasetFromRows(CSV_PATH, input_len=INPUT_LEN, output_len=OUTPUT_LEN, train_split=TRAIN_SPLIT, train=True)
-    test = EnergyDatasetFromRows(CSV_PATH, input_len=INPUT_LEN, output_len=OUTPUT_LEN, train_split=TRAIN_SPLIT, train=False)
+    train_df = EnergyDataset2(CSV_PATH)
+    test = EnergyDataset2(CSV_PATH)
 
     print(f"DEVICE: {DEVICE}")
     print(f"Train dataset size: {len(train_df)}")
