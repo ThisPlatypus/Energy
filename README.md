@@ -76,5 +76,5 @@ To reproduce the baseline experiments:
    git clone https://github.com/ThisPlatypus/Energy.git
    cd Energy
    ```
-## Citation
+## References
 *Becchi, Lorenzo, Chiara Camerota, Matteo Intravaia, Marco Bindi, Antonio Luchetta, and Tommaso Pecorella. "Load Profile Generation for Robust Optimization: A Stochastic Approach Based on Conditional Probability Approximation." In Conference Proceedings-2025 IEEE International Conference on Environment and Electrical Engineering and 2025 IEEE Industrial and Commercial Power Systems Europe, EEEIC/I and CPS Europe 2025, pp. 1-6. Institute of Electrical and Electronics Engineers Inc., 2025.*
